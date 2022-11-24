@@ -54,7 +54,7 @@ app.get('/',function(req,res){
             return;
         }
         else{
-            return res.render('home',{
+            return res.render('index',{
                 title: "Contacts List",
                 contact_list: contacts
             });
