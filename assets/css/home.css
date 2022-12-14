@@ -31,14 +31,15 @@ div.scroll {
 }
 
 #contacts{
-    margin-bottom: 40px;
+    margin: 40px;
     background: linear-gradient(#3f87a6, #ebf8e1, #f69d3c, #561423);
+    list-style-type: none;
 }
 
 #contacts li{
     background-color: rgb(236, 200, 155);
     height: 80px;
-    width: 200px;
+    width: 55%;
     margin: auto;
     text-align: center;
 }
@@ -65,7 +66,8 @@ div.scroll {
 
 .delete-contact a{
     position: relative;
-    left: 25%;
+    left: 17%;
+    overflow: scroll;
 }
 
 .delete-contact a button{
