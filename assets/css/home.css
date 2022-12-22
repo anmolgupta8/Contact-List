@@ -1,15 +1,16 @@
 body{
-    background-color: rgb(33, 44, 44);
+    background-color: rgb(57, 138, 138);
 }
 
 #externalContainer{
     width: 28%;
-    background:
+    /* background:
     linear-gradient(to top right,red, transparent),
     linear-gradient(to top left, yellow, transparent),
-    linear-gradient(to top right, blue, transparent);
+    linear-gradient(to top right, blue, transparent);*/
     margin: auto;
     padding-top: 2px;
+    background-color: rgb(19, 65, 80);
 }
 
 div.scroll {
@@ -28,6 +29,10 @@ div.scroll {
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
+    color: aliceblue;
+    letter-spacing: 2px;
+    border: 2px dotted white;
+    border-radius: 30px;
 }
 
 #contacts{
@@ -37,7 +42,7 @@ div.scroll {
 }
 
 #contacts li{
-    background-color: rgb(236, 200, 155);
+    background-color: rgb(54, 230, 230);
     height: 80px;
     width: 55%;
     margin: auto;

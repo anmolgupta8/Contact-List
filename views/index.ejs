@@ -9,32 +9,34 @@
 </head>
 <body>
     <div id="externalContainer">
-        <h1 id="heading">Contact List</h1>
-        <div id="container" class="scroll">
-            <ul id="contacts">
-                <% for(i of contact_list){ %>
-                    <li>
-                        <p class="attribute">
-                            <%= i.name %>
-                        </p>
-                        <p class="attribute">
-                            <%= i.contact %>
-                        </p>
-                    </li>
+        <section>
+            <h1 id="heading">Contact List</h1>
+            <div id="container" class="scroll">
+                <ul id="contacts">
+                    <% for(i of contact_list){ %>
+                        <li>
+                            <p class="attribute">
+                                <%= i.name %>
+                            </p>
+                            <p class="attribute">
+                                <%= i.contact %>
+                            </p>
+                        </li>
 
-                    <div class="delete-contact">
-                        <a href="/delete-contact/?id=<%= i._id %>">
-                            <button>Delete Contact</button>
-                        </a>
-                    </div>
-                <% } %>
-            </ul>
-        </div>
-        <form action="/create-contact" method="post" id="add_contact">
-            <input type="text" name="name" placeholder="Enter name">
-            <input type="number" name="contact" placeholder="Enter contact number">
-            <button type="submit"> Add Contact </button>
-        </form>
+                        <div class="delete-contact">
+                            <a href="/delete-contact/?id=<%= i._id %>">
+                                <button>Delete Contact</button>
+                            </a>
+                        </div>
+                    <% } %>
+                </ul>
+            </div>
+            <form action="/create-contact" method="post" id="add_contact">
+                <input type="text" name="name" placeholder="Enter name">
+                <input type="number" name="contact" placeholder="Enter contact number">
+                <button type="submit"> Add Contact </button>
+            </form>
+        </section>
     </div>
     <script src="/js/home.js"></script>
 </body>
