@@ -1,16 +1,12 @@
 body{
-    background-color: rgb(57, 138, 138);
+    background-image: url("https://img.freepik.com/premium-photo/email-marketing-newsletter-concept-contact-us-by-newsletter-email-protect-your-personal-information-from-spam-mail-concept-scheme-direct-sales-business-list-clients-mailing_150455-17502.jpg?w=2000");
 }
 
 #externalContainer{
-    width: 28%;
-    /* background:
-    linear-gradient(to top right,red, transparent),
-    linear-gradient(to top left, yellow, transparent),
-    linear-gradient(to top right, blue, transparent);*/
+    width: 48%;
     margin: auto;
     padding-top: 2px;
-    background-color: rgb(19, 65, 80);
+    background-color: #2d2f30;
 }
 
 div.scroll {
@@ -24,26 +20,29 @@ div.scroll {
 }
 
 #heading{
-    /* margin-top: 100px; */
-    /* margin-bottom: 40px; */
-    text-align: center;
     font-size: xx-large;
     font-weight: bolder;
     color: aliceblue;
     letter-spacing: 2px;
     border: 2px dotted white;
     border-radius: 30px;
+    width: fit-content;
+    margin: auto;
+    padding: 8px;
+    margin-top: 8px;
 }
 
 #contacts{
-    margin: 40px;
-    background: linear-gradient(#3f87a6, #ebf8e1, #f69d3c, #561423);
+    background-color: rgb(41, 86, 84);
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 #contacts li{
-    background-color: rgb(54, 230, 230);
-    height: 80px;
+    background: linear-gradient(#3f87a6, #ebf8e1, #f69d3c, #561423);
+    height: 100px;
     width: 55%;
     margin: auto;
     text-align: center;
@@ -55,26 +54,26 @@ div.scroll {
 
 #add_contact{
     padding: 10px;
-    margin-left: 28%;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 #add_contact input,button{
     padding: 10px;
-    width: 180px;
 }
 
 #add_contact button{
-    background-color: rgb(159, 157, 157);
+    background-color: #2f3e46;
+    color: white;
 }
 
 .delete-contact a{
-    position: relative;
-    left: 17%;
-    overflow: scroll;
+    overflow: scroll;  
 }
 
 .delete-contact a button{
-    background-color: rgb(159, 157, 157);
+    background-color: #2f3e46;
+    color: white;
+
 }
